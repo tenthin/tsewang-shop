@@ -1,0 +1,23 @@
+.about-us-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 100px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color:#03a757;
+    /* font-weight: bold; */
+    /* margin-bottom: 30px; */
+  }
+  
+  .about-us-page p {
+    margin-bottom: 1rem;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+    color:#03a757;
+    /* align-items: left; */
+  }
+  

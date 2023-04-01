@@ -1,0 +1,15 @@
+.full-recipe-btn{
+    /* margin-left: auto; */
+}
+
+.full-recipe-btn a {
+    text-decoration: none;
+  }
+
+  .full-recipe-btn button{
+    border:none;
+    background-color: #03a757;
+    padding:0.5rem 2rem;
+    color: #fff;
+    cursor: pointer;
+  }

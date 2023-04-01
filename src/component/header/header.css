@@ -1,0 +1,63 @@
+/* TYPOGRAPHY */
+h1{
+    font-size:5rem;
+  }
+  
+  h2{
+    font-size: 3rem;
+  }
+
+
+  /* WEBPAGE WIDTH AND CENTER*/
+.header,.product-list, .recipe-list, .full-recipe-container{
+    max-width: 1065px;
+    margin: 0 auto;
+}
+
+.header{
+        /* position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999; */
+    color: brown;
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+    /* max-width: 1265px; */
+    /* background-color: aqua; */
+}
+
+.logo{
+    width: 25%;
+    cursor: pointer;
+}
+
+.menu{
+    flex: 1;
+    /* text-align: right; */
+    /* color:blue; */
+}
+
+.menu ul{
+
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:#03a757;
+
+}
+
+.search{
+    width: 150px;
+    /* background-color: #03a757; */
+    color:#03a757;
+    padding: 0 20px;
+}
