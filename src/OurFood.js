@@ -20,7 +20,6 @@ export default function OurFood() {
 
   return (
     <>
-      {/* <div className="product-list" style={styling}> */}
       <div className="product-list">
         {products.map((product) => (
           <div key={product.id} className="product-card">
@@ -30,7 +29,6 @@ export default function OurFood() {
               alt={product.name}
             />
             <h4>{product.name}</h4>
-            {/* <p>{product.price}</p> */}
             <NavLink>
               <button onClick={() => changecontent(product)}>DETAILS</button>
             </NavLink>
@@ -47,9 +45,9 @@ export default function OurFood() {
               {popup.map((pop) => {
                 return (
                   <div className="popup-card">
-                    <div className="popup-img">
-                      <img src={pop.image} alt={pop.name} />
-                    </div>
+                    {/* <div > */}
+                    <img src={pop.image} alt={pop.name} className="popup-img" />
+                    {/* </div> */}
                     <div className="pop-item-detail">
                       <p className="popup-name">
                         <h3>{pop.name}</h3>

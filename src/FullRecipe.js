@@ -16,7 +16,6 @@ export default function FullRecipe() {
   return (
     <div className="full-recipe-container">
       <div className="full-recipe-page">
-        {/* {recipes.map((recipe) => ( */}
         <div key={recipe.id} className="full-recipe-link">
           <div className="full-recipe-img">
             <img src={recipe.image} alt={recipe.name} />
@@ -31,7 +30,6 @@ export default function FullRecipe() {
                 <li key={ingredient}>{ingredient}</li>
               ))}
             </ul>
-            {/* <p>{recipe.ingredients}</p> */}
             <h4>Instruction:</h4>
             <p>{recipe.instructions}</p>
           </div>
@@ -41,7 +39,6 @@ export default function FullRecipe() {
             </NavLink>
           </div>
         </div>
-        {/* ))} */}
       </div>
     </div>
   );

@@ -13,3 +13,26 @@
     color: #fff;
     cursor: pointer;
   }
+
+  @media(max-width:480px){
+    .full-recipe-link{
+      margin: 0;
+    }
+
+    .full-recipe-img {
+      display: flex;
+      justify-content: center;
+  }
+
+  .full-recipe-info{
+    padding: 0 1rem 0 1rem;
+  }
+    .full-recipe-info h3{
+      text-align: center;
+    }
+
+    .full-recipe-btn{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }

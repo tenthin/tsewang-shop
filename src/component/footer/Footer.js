@@ -12,30 +12,38 @@ export default function Footer() {
         <img src="/images/tsewangs-logo.png"></img>
       </div>
       <div className="footer-menu">
-        <ul>
-          <li>
-            <a href="">CONTACT US</a>
-          </li>
-          <li>
-            <a href="">MEDIA</a>
-          </li>
-          <li>
-            <a href="">CAREERS</a>
-          </li>
-          <li>
-            <a href="">OUR COMMUNITY</a>
-          </li>
-          <li>
-            <a href="">SITE MAP</a>
-          </li>
-          <li>
-            <a href="">PRIVACY POLICY</a>
-          </li>
-          <li>
-            <a href="">TERMS OF USE</a>
-          </li>
-        </ul>
+        <div className="footer-list1">
+          <ul>
+            <li>
+              <a href="">CONTACT US</a>
+            </li>
+            <li>
+              <a href="">MEDIA</a>
+            </li>
+            <li>
+              <a href="">CAREERS</a>
+            </li>
+            <li>
+              <a href="">OUR COMMUNITY</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="footer-list2">
+          <ul>
+            <li>
+              <a href="">SITE MAP</a>
+            </li>
+            <li>
+              <a href="">PRIVACY POLICY</a>
+            </li>
+            <li>
+              <a href="">TERMS OF USE</a>
+            </li>
+          </ul>
+        </div>
       </div>
+
       <div className="social">
         <div className="social-icon">
           <FacebookIcon />

@@ -7,7 +7,6 @@ h1{
     font-size: 3rem;
   }
 
-
   /* WEBPAGE WIDTH AND CENTER*/
 .header,.product-list, .recipe-list, .full-recipe-container{
     max-width: 1065px;
@@ -15,49 +14,101 @@ h1{
 }
 
 .header{
-        /* position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 999; */
-    color: brown;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
-    /* max-width: 1265px; */
-    /* background-color: aqua; */
-}
-
-.logo{
-    width: 25%;
-    cursor: pointer;
+    padding: 1.5rem 2rem;
 }
 
 .menu{
-    flex: 1;
-    /* text-align: right; */
-    /* color:blue; */
+    /* flex: 1; */
+    text-align: center;
+    margin: 0 10px;
 }
-
 .menu ul{
-
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
 }
 
 .menu ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
+    margin: 0 2rem;
 }
 
 .menu ul li a{
     text-decoration: none;
     color:#03a757;
-
 }
 
-.search{
+.menu-icon{
+    display: none;
+}
+
+/* .search{
     width: 150px;
-    /* background-color: #03a757; */
     color:#03a757;
     padding: 0 20px;
+} */
+
+@media(max-width:480px){
+    .header{
+        /* flex-direction: column; */
+        margin-top: 1rem;
+        align-items: center;
+        padding: 1rem 1rem;
+    }
+
+    nav{
+        margin: 10px 0;
+        display: none;
+    }
+    
+    nav.menu{
+        position: absolute;
+        right: 0;
+        top: 7rem;
+        background: rgba(228, 216, 216, 0.9);
+        width: 100%;
+        margin: 0 auto;
+        left: 0;
+    }
+    
+    /* nav ul {
+        justify-content: center;
+    } */
+    nav ul li {
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .menu.show {
+        display: flex;
+        flex-direction: column;
+        /* z-index: 999; */
+    }
+    .menu.show ul {
+        display: flex;
+        flex-direction: column;
+        /* padding: 0; */
+        /* text-align: center; */
+    }
+
+    .menu ul {
+    align-items: center;
+    }
+
+    /* .menu ul li{
+        margin: 0 1rem;
+    } */
+    .menu-icon{
+        display: block;
+        margin-left: auto;
+        }
+
+    .menu-icon svg{
+        font-size:2.5rem; 
+        color:#03a757;
+    }    
 }

@@ -14,10 +14,16 @@
   
   .about-us-page p {
     margin-bottom: 1rem;
-    font-size: 15px;
+    /* font-size: 15px; */
     line-height: 1.5;
     text-align: left;
     color:#03a757;
     /* align-items: left; */
   }
   
+  @media(max-width:480px){
+    .about-us-page{
+      padding: 1.2rem 1rem;
+    }
+    
+  }
