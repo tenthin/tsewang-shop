@@ -132,4 +132,9 @@
     .popup-header button{
         font-size: 1.5rem;
     }
+
+    .popup-img{
+        width: 50%;
+        height: 50%;
+    }
 }

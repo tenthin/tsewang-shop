@@ -136,12 +136,12 @@ code {
     width: 100%;
  }
 
-@media (max-width: 780px) {
+@media (max-width: 480px) {
   /* styles for screens with max-width of 780px */
   
   .hero {
     flex-direction: column;
-    background-image: none;
+    /* background-image: none; */
   }
   
   .hero-title {
@@ -156,19 +156,27 @@ code {
   }
   
   .products {
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 2rem;
+    /* flex-direction: column;
+    align-items: center; */
+    padding: 1rem 1rem;
+    background-image: none;
   }
   
   .items {
-    margin-bottom: 1.5rem;
-    border: 1px solid #fff;
-    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid #bfbaba;
+    padding: 0.5rem;
   }
   
   .about-us {
     text-align: center;
+  }
+
+  .about-us-btn{
+    padding: 1rem 2rem;
+    margin: 1rem;
+    font-weight: bold;
+
   }
   
   .about-us-bg {
@@ -183,5 +191,17 @@ code {
   .recipe,
   .stories {
     margin-bottom: 20px;
+  }
+
+  .container3{
+    display: flex;
+  }
+
+  .recipe{
+    width: auto;
+  }
+
+  .stories{
+    width: auto;
   }
 }
