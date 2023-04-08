@@ -62,7 +62,9 @@ export default function Main() {
 
       <div className="container3">
         <div className="recipe">
-          <img src="images/recipebg.jpg" alt="recipe" />
+          <NavLink to="/recipe">
+            <img src="images/recipebg.jpg" alt="recipe" />
+          </NavLink>
           {/* <button className="recipe-btn">Know More</button> */}
         </div>
         <div className="stories">

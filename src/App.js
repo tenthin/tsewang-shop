@@ -4,6 +4,7 @@ import Home from "./Home";
 import OurFood from "./OurFood";
 import Header from "./component/header/Header";
 import Footer from "./component/footer/Footer";
+import Contact from "./component/Contact/Contact";
 import Aboutus from "./Aboutus";
 import Recipe from "./Recipe";
 import FullRecipe from "./FullRecipe";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/ourfood" element={<OurFood />} />
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/recipe" element={<Recipe />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/fullrecipe/:id" element={<FullRecipe />} />
         </Routes>
         <Footer />

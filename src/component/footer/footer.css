@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     /* align-items: center; */
-    padding: 20px 8%;
+    padding: 1rem 3rem;
     /* background-color: antiquewhite; */
     justify-content: space-between;
     align-items: center;
@@ -64,7 +64,6 @@
 
 .social-icon{
     color:#03a757;
-    /* margin-right: 20px; */
     cursor: pointer;
 }
 
@@ -76,15 +75,9 @@
     .footer-menu{
         align-self: center;
         display: flex;
-        gap: 4rem;
+        gap: 2rem;
         margin-bottom: 1rem;
     }
-
-    /* .footer-list1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } */
 
     .footer-list1 ul{
         display: flex;
@@ -99,6 +92,6 @@
     }
 
     .footer-menu ul li a{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }

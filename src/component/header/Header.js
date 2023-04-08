@@ -42,8 +42,13 @@ export default function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="Recipe" onClick={handleItemClick}>
+            <NavLink to="recipe" onClick={handleItemClick}>
               Recipe
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="Contact" onClick={handleItemClick}>
+              Contact
             </NavLink>
           </li>
           {/* <li>

@@ -32,6 +32,11 @@
     margin: 1rem;
 }
 
+
+.product-card button:hover{
+    background-color: #43c888;
+    }
+
 .popup-container{
     position: fixed;
     top: 0;

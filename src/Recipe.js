@@ -14,20 +14,20 @@ export default function Recipe() {
           <div className="recipe-detail">
             <h3>{recipe.name}</h3>
             <p>{recipe.info}</p>
-            <h4>Ingredients:</h4>
-            <ul>
+            {/* <h4>Ingredients:</h4> */}
+            {/* <ul>
               {recipe.ingredients.map((ingredient) => (
                 <li key={ingredient}>{ingredient}</li>
               ))}
-            </ul>
+            </ul> */}
             {/* <p>{recipe.ingredients}</p> */}
-            <h4>Instruction:</h4>
-            <p>{recipe.instructions}</p>
-          </div>
-          <div className="full-recipe">
-            <NavLink to={`/fullrecipe/${recipe.id}`}>
-              <button>FULL RECIPE</button>
-            </NavLink>
+            {/* <h4>Instruction:</h4>
+            <p>{recipe.instructions}</p> */}
+            <div className="full-recipe">
+              <NavLink to={`/fullrecipe/${recipe.id}`}>
+                <button>FULL RECIPE</button>
+              </NavLink>
+            </div>
           </div>
         </div>
       ))}
